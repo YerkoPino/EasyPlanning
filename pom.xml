@@ -11,4 +11,25 @@
     <module>easy-planning-web</module>
     <module>easy-planning-ejb</module>
   </modules>
+  
+
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<url>
+
+http://localhost:8081/nexus/content/repositories/releases
+
+		</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus</id>
+		<url>
+
+http://localhost:8081/nexus/content/repositories/snapshots/
+
+		</url>
+	</snapshotRepository>
+</distributionManagement>
+
 </project>
